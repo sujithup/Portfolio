@@ -1,6 +1,8 @@
 import AboutSection from "./components/about";
+import Footer from "./components/footer";
 import HeroSection from "./components/heroSection";
 import Navbar from "./components/navbar";
+import Projects from "./components/projects";
 import Skills from "./components/skills";
 
 export default function Home() {
@@ -15,6 +17,12 @@ export default function Home() {
       </div>
       <div className="container mt-24 mx-auto px-1 py-4">
         <Skills/>
+      </div>
+      <div className="container mt-24 mx-auto px-1 py-4">
+        <Projects/>
+      </div>
+      <div className="container mt-24 mx-auto px-1 py-4">
+        <Footer/>
       </div>
     </main>
   );
