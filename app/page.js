@@ -1,4 +1,5 @@
 import AboutSection from "./components/about";
+import Contact from "./components/contact";
 import Footer from "./components/footer";
 import HeroSection from "./components/heroSection";
 import Navbar from "./components/navbar";
@@ -20,6 +21,9 @@ export default function Home() {
       </div>
       <div className="container mt-24 mx-auto px-1 py-4">
         <Projects/>
+      </div>
+      <div className="container mt-24 mx-auto px-1 py-4">
+        <Contact/>
       </div>
       <div className="container mt-24 mx-auto px-1 py-4">
         <Footer/>
