@@ -5,14 +5,14 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image className="sm:block hidden" src="/about-image.png" width={400} height={400} />
+        <Image className="sm:block hidden" src="/about-image.png" alt="about image" width={400} height={400} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About</h2>
-          <Image className="sm:hidden block mb-4" src="/about-image.png" width={400} height={400} />
+          <Image className="sm:hidden block mb-4" src="/about-image.png" alt="about image" width={400} height={400} />
           <p className=" lg:text-xl">
-            Hello world! I'm Sujith, a versatile creator with skills ranging
+            Hello world! I am Sujith, a versatile creator with skills ranging
             from designing and building websites to developing apps. Over the
-            past 2.6 years, I've dedicated myself to crafting websites from the
+            past 2.6 years, I have dedicated myself to crafting websites from the
             ground up. Additionally, I specialize in Flutter app development,
             integrating Firebase for robust backend support. My passion lies in
             crafting straightforward, sophisticated, and adaptable web and
