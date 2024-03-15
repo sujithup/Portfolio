@@ -147,13 +147,13 @@ export const socialMedia = [
     id: 1,
     title: "LinkedIn",
     icon: FaLinkedin,
-    link: "www.linkedin.com/in/sujithup",
+    link: "https://www.linkedin.com/in/sujithup/",
   },
   {
     id: 2,
     title: "Instagram",
     icon: FaInstagram,
-    link: "",
+    link: "https://www.instagram.com/sujithsubramanya/",
   },
 ];
 

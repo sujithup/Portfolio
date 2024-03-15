@@ -10,19 +10,19 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col bg-[#050709]">
       <Navbar />
-      <div className="container mt-24 mx-auto px-1 py-4">
+      <div className="container mt-24 mx-auto py-4">
         <HeroSection />
       </div>
-      <div className="container mt-24 mx-auto px-1 py-4">
+      <div className="container mt-12 mx-auto px-1 py-4">
         <AboutSection />
       </div>
-      <div className="container mt-24 mx-auto px-1 py-4">
+      <div className="container mt-12 mx-auto px-1 py-4">
         <Skills/>
       </div>
-      <div className="container mt-24 mx-auto px-1 py-4">
+      <div className="container mt-12 mx-auto px-1 py-4">
         <Projects/>
       </div>
-      <div className="container mt-24 mx-auto px-1 py-4">
+      <div className="container mt-12 mx-auto px-1 py-4">
         <Contact/>
       </div>
       <div className="container mt-24 mx-auto px-1 py-4">

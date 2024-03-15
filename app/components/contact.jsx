@@ -6,17 +6,16 @@ import { socialMedia } from "../constants";
 const Contact = () => {
   return (
     <section className="text-white" id="contact">
-      <h2 className="text-4xl font-bold text-white mb-4">Contact Me</h2>
+      <h2 className="text-4xl font-bold px-4 text-white mb-4">Contact Me</h2>
       <div className="mt-8 flex items-center flex-wrap gap-8 justify-center">
         {socialMedia.map((social) => {
           const Icon = social.icon;
           return (
             <a
-              //   href={link}
+              href={social.link}
               key={social.id}
-              href="/"
               target="_blank"
-              className="flex items-center justify-center gap-2 text-xl text-gray-400 font-semibold group"
+              className="flex items-center bg-[#2A1D3B] p-3 rounded-xl justify-center gap-2 text-xl text-white font-semibold group"
             >
               <Icon className="w-10 h-10 mx-auto" />
               <p className="group-hover:text-white">{social.title}</p>
