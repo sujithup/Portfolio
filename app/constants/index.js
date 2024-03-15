@@ -91,7 +91,7 @@ export const webProjects = [
     code: "https://github.com/sujithup/CreditCard",
     heading: "Translating Figma Design into a Responsive Website",
     description:
-      "Witness the seamless transition from design to reality with the conversion of meticulously crafted Figma designs into a fully responsive and lightning-fast website. Harnessing the power of industry-standard frameworks such as Next.js and Tailwind CSS, I've brought the vision to life, elevating the user experience to new heights.",
+      "Witness the seamless transition from design to reality with the conversion of meticulously crafted Figma designs into a fully responsive and lightning-fast website. Harnessing the power of industry-standard frameworks such as Next.js and Tailwind CSS, I have brought the vision to life, elevating the user experience to new heights.",
     cover: "/moobank.jpg",
   },
 ];
@@ -123,7 +123,7 @@ export const figmaDesign = [
     tech: [SiReact, SiFirebase, SiTailwindcss, SiMaterialdesign, SiNodedotjs],
     heading: "Figma: Neumorphic Robot Control UI",
     link: "https://www.figma.com/file/Mgo5aJFkOav3hoDuaiBYOR/Alltramatic-app?type=design&mode=design&t=6v8zOJA1AUTQGzzy-0",
-    description: "I designed a robot control interface using Figma, drawing inspiration from the industry's latest design trends, particularly the neumorphic style. This modern take on a robot control application incorporates sleek, futuristic elements to deliver an intuitive and visually striking user experience. Through this project, I explored the forefront of design trends and applied them to create a forward-thinking robot control interface.",
+    description: "I designed a robot control interface using Figma, drawing inspiration from the industry latest design trends, particularly the neumorphic style. This modern take on a robot control application incorporates sleek, futuristic elements to deliver an intuitive and visually striking user experience. Through this project, I explored the forefront of design trends and applied them to create a forward-thinking robot control interface.",
     cover: "/alltramtic.jpg",
   },
   {
