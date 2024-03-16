@@ -24,7 +24,8 @@ const HeroSection = () => {
               Contact Me
             </Link>
             <Link
-              href="/"
+              href="/SujithResume.pdf"
+              target="_blank"
               className="px-1 inline-block bg-slate-800 py-1 w-fit rounded-full hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
