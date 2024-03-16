@@ -11,7 +11,8 @@ import Link from "next/link";
 import { FaEye, FaCode } from "react-icons/fa";
 
 const Projects = () => {
-  const [showFullDescription, setShowFullDescription] = React.useState(false);
+  const [showFullDescription, setShowFullDescription] = React.useState(true);
+
 
   const toggleDescription = () => {
     setShowFullDescription(!showFullDescription);
@@ -49,7 +50,7 @@ const Projects = () => {
                   backgroundRepeat: "no-repeat",
                   backgroundSize: "cover",
                 }}
-                className="h-40 md:h-72 rounded-t-xl relative"
+                className="h-40 md:h-72 rounded-t-xl relative group"
               >
                 <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
                   {project.code && (
