@@ -3,7 +3,7 @@ import { skills } from "../constants";
 
 const Skills = () => {
   return (
-    <section className="text-white px-4 " id="skills">
+    <section className="text-[#1A3066] px-4 " id="skills">
       <h2 className="text-4xl font-bold text-white mb-10">Skills</h2>
       <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3">
         {skills.map((skill, index) => {

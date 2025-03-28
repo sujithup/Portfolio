@@ -12,7 +12,7 @@ const AboutSection = () => {
           <p className=" lg:text-xl">
             Hello world! I am Sujith, a versatile creator with skills ranging
             from designing and building websites to developing apps. Over the
-            past 2.6 years, I have dedicated myself to crafting websites from the
+            past 3.5+ years, I have dedicated myself to crafting websites from the
             ground up. Additionally, I specialize in Flutter app development,
             integrating Firebase for robust backend support. My passion lies in
             crafting straightforward, sophisticated, and adaptable web and
